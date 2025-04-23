@@ -650,10 +650,6 @@ video {
   gap: 50px;
 }
 
-.gap-\[\] {
-  gap: ;
-}
-
 .border-\[1px\] {
   border-width: 1px;
 }
@@ -723,6 +719,18 @@ video {
 
 .pl-\[50px\] {
   padding-left: 50px;
+}
+
+.pr-\[\] {
+  padding-right: ;
+}
+
+.pr-\[30px\] {
+  padding-right: 30px;
+}
+
+.pr-\[50px\] {
+  padding-right: 50px;
 }
 
 .text-end {
