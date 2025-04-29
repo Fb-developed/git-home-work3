@@ -590,8 +590,24 @@ video {
   margin-top: 50px;
 }
 
+.mb-\[100px\] {
+  margin-bottom: 100px;
+}
+
+.mb-\[200px\] {
+  margin-bottom: 200px;
+}
+
+.ml-\[110px\] {
+  margin-left: 110px;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .h-\[200px\] {
@@ -620,6 +636,18 @@ video {
 
 .h-\[70px\] {
   height: 70px;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[110px\] {
+  height: 110px;
+}
+
+.h-\[150px\] {
+  height: 150px;
 }
 
 .w-\[100\%\] {
@@ -658,6 +686,42 @@ video {
   width: 650px;
 }
 
+.w-\[220px\] {
+  width: 220px;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.grid-rows-6 {
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -694,12 +758,24 @@ video {
   gap: 20px;
 }
 
+.gap-\[100px\] {
+  gap: 100px;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
+}
+
 .rounded-\[10px\] {
   border-radius: 10px;
 }
 
 .rounded-\[20px\] {
   border-radius: 20px;
+}
+
+.rounded-\[25px\] {
+  border-radius: 25px;
 }
 
 .border {
@@ -751,8 +827,26 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity, 1));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+
+.bg-\[url\(\'\/src\/img\/Group-bg-img\.png\'\)\] {
+  background-image: url('/src/img/Group-bg-img.png');
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .p-\[30px\] {
@@ -777,6 +871,10 @@ video {
 
 .p-\[20px\] {
   padding: 20px;
+}
+
+.p-\[2px\] {
+  padding: 2px;
 }
 
 .pb-\[100px\] {
@@ -851,6 +949,22 @@ video {
   padding-top: 15px;
 }
 
+.pb-\[150px\] {
+  padding-bottom: 150px;
+}
+
+.pl-\[15px\] {
+  padding-left: 15px;
+}
+
+.pr-\[15px\] {
+  padding-right: 15px;
+}
+
+.pt-\[100px\] {
+  padding-top: 100px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -887,6 +1001,26 @@ video {
   font-size: 30px;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[35px\] {
+  font-size: 35px;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
+}
+
+.text-\[55px\] {
+  font-size: 55px;
+}
+
 .text-\[\#1178B280\] {
   color: #1178B280;
 }
@@ -909,6 +1043,11 @@ video {
 .text-blue-700 {
   --tw-text-opacity: 1;
   color: rgb(29 78 216 / var(--tw-text-opacity, 1));
+}
+
+.text-\[blue\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 255 / var(--tw-text-opacity, 1));
 }
 
 .shadow-\[0_25px_40px_rgba\(0\2c 0\2c 0\2c 0\.3\)\] {
@@ -984,6 +1123,14 @@ video {
     width: 350px;
   }
 
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:grid-rows-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
+
   .sm\:flex-col {
     flex-direction: column;
   }
@@ -1038,6 +1185,10 @@ video {
     display: block;
   }
 
+  .md\:inline {
+    display: inline;
+  }
+
   .md\:inline-flex {
     display: inline-flex;
   }
@@ -1064,6 +1215,38 @@ video {
 
   .md\:w-\[940px\] {
     width: 940px;
+  }
+
+  .md\:w-\[1000px\] {
+    width: 1000px;
+  }
+
+  .md\:w-\[1150px\] {
+    width: 1150px;
+  }
+
+  .md\:w-\[250px\] {
+    width: 250px;
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-1 {
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -1110,8 +1293,16 @@ video {
     padding-right: 100px;
   }
 
+  .md\:pl-\[200px\] {
+    padding-left: 200px;
+  }
+
   .md\:text-start {
     text-align: start;
+  }
+
+  .md\:text-\[45px\] {
+    font-size: 45px;
   }
 }
 
