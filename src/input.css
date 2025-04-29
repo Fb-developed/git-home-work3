@@ -12,3 +12,9 @@
     background-size: cover;
 }
 
+.sec-7 {
+    background-image: url('./img/Rectangle\ 1992.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
